@@ -1,0 +1,28 @@
+{
+  "name": "apps-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b && vite build",
+    "dev": "vite",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "test": "echo \"No frontend tests configured\""
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.20",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.4.1",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.1",
+    "typescript": "^5.8.3",
+    "vite": "^5.4.19"
+  }
+}

@@ -1,8 +1,5 @@
 node_modules
 dist
 coverage
-.env
-.env.local
+.turbo
 apps/api/generated
-apps/web/dist
-.DS_Store
