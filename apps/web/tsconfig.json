@@ -6,7 +6,7 @@
     "jsx": "react-jsx",
     "rootDir": "src",
     "outDir": "dist",
-    "types": ["vite/client"]
+    "types": ["vite/client", "@testing-library/jest-dom"]
   },
   "include": ["src"]
 }

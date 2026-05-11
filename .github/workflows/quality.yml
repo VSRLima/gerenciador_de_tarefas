@@ -59,6 +59,9 @@ jobs:
       - name: Run API e2e tests
         run: npm run test:e2e --workspace apps/api
 
+      - name: Run web tests
+        run: npm run test --workspace apps/web
+
       - name: Build workspaces
         run: npm run build
 
